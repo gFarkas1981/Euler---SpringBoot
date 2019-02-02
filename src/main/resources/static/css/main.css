@@ -108,13 +108,14 @@ body {
 
     flex: 1 0 auto;
 }
-.footer, .aboutMe {
+.footer {
     height: 60px;
     left: 0;
     bottom: 0;
     text-align: center;
     text-decoration: none;
     color: antiquewhite;
+    width: 100%;
 }
 
 .footer {
