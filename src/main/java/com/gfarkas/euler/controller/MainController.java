@@ -6,11 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class MainController {
-
     @EventListener(ApplicationReadyEvent.class)
     public void doSomethingAfterStartup() {
         System.out.println("hello world, I have just started up");
     }
-
-
 }
+

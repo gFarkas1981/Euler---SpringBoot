@@ -2,9 +2,7 @@ package com.gfarkas.euler;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.event.EventListener;
 
 import java.util.Arrays;
 
@@ -17,7 +15,7 @@ public class EulerMain {
 
         String[] beanArray = ct.getBeanDefinitionNames();
         Arrays.sort(beanArray);  //sorting bean names
-        for(String name : beanArray) {
+        for (String name : beanArray) {
             System.out.println(name);
         }
 

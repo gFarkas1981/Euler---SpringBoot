@@ -28,8 +28,7 @@ public class Euler4 {
         for (int i = lpp;i > spp - 1; i--)
             if (isPalindrome.isPalindrome(i)) {
                 for (int k = maxFactor; k >= minFactor; k--){
-                    if (i % k == 0 && i / k > minFactor && i / k < maxFactor){
-                        System.out.println(i + "GFHGFh" + i / k);
+                    if (i % k == 0 && i / k > minFactor && i / k < maxFactor){ ;
                         lp = i;
                         i = spp;
                         break;

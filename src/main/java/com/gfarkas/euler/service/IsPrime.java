@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class IsPrime {
 
-    public String isPrime(int number) {
+    public boolean isPrime(int number) {
         boolean isPrime = false;
         int divider = 0;
 
@@ -26,10 +26,6 @@ public class IsPrime {
                 isPrime = true;
             }
         }
-        if (isPrime){
-            return "a prime number!";
-        }else {
-            return "not a prime number!";
-        }
+        return isPrime;
     }
 }

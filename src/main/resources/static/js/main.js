@@ -30,69 +30,56 @@ $(document).ready(function () {
 
 
 
+$('.modal-content , .modal-dialog').resizable({
+    //alsoResize: ".modal-dialog",
 
 
+    minHeight: 300,
+    minWidth: 300
+});
 
 
+$('.modal-dialog').draggable();
 
-
-$(document).ready(function(){
-
-
-    var $content, $modal, $apnData, $modalCon;
-
-    $content = $(".min");
-
-
-    //To fire modal
-    $(".mdlFire").click(function(e){
-
-        e.preventDefault();
-
-        var $id = $(this).attr("data-target");
-
-        $($id).modal({backdrop: false, keyboard: false});
-
+$('#isPrimeModal').on('show.bs.modal', function() {
+    $(this).find('.modal-body').css({
+        'max-height': '100%',
+        'width': '100%'
     });
+});
 
 
-    $(".modalMinimize").on("click", function(){
 
-        $modalCon = $(this).closest(".mymodal").attr("id");
+(function($) {
+    $.fn.flash_message = function(options) {
 
-        $apnData = $(this).closest(".mymodal");
+        options = $.extend({
+            text: 'Done',
+            time: 1000,
+            how: 'before',
+            class_name: ''
+        }, options);
 
-        $modal = "#" + $modalCon;
+        return $(this).each(function() {
+            if( $(this).parent().find('.flash_message').get(0) )
+                return;
 
-        $(".modal-backdrop").addClass("display-none");
+            var message = $('<span />', {
+                'class': 'flash_message ' + options.class_name,
+                text: options.text
+            }).hide().fadeIn('fast');
 
-        $($modal).toggleClass("min");
+            $(this)[options.how](message);
 
-        if ( $($modal).hasClass("min") ){
+            message.delay(options.time).fadeOut('normal', function() {
+                $(this).fadeOut();
+            });
 
-            $(".minmaxCon").append($apnData);
+        });
+    };
+})(jQuery);
 
-            $(this).find("i").toggleClass( 'fa-minus').toggleClass( 'fa-clone');
 
-        }
-        else {
-
-            $(".container").append($apnData);
-
-            $(this).find("i").toggleClass( 'fa-clone').toggleClass( 'fa-minus');
-
-        };
-
-    });
-
-    $("button[data-dismiss='modal']").click(function(){
-
-        $(this).closest(".mymodal").removeClass("min");
-
-        $(".container").removeClass($apnData);
-
-        $(this).next('.modalMinimize').find("i").removeClass('fa fa-clone').addClass( 'fa fa-minus');
-
-    });
-
+$('#sendIsPrime, #sendIsPalindrome, #sendFibonaccisUnder, #sendReverseNumber, #largestPrimeFactor').on('click touchstart', function () {
+    $('#responseField').empty();
 });

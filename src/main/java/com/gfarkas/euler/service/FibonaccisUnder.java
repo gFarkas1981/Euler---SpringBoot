@@ -8,7 +8,7 @@ import java.util.List;
 @Service
 public class FibonaccisUnder {
 
-    List<Integer> fibonaccisUnder(int under) { //Puts Fibonacci numbers to Arraylist under input value
+    public List<Integer> fibonaccisUnder(int under) { //Puts Fibonacci numbers to Arraylist under input value
         List<Integer> fib = new ArrayList<>();
         int counter = 2;
         fib.add(1);

@@ -5,19 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5578a448-39be-4eca-b59b-ca7aafcb138d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/APIController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firstspringboot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/firstspringboot.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/EulerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/EulerMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/HomeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/Euler2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/Euler2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gfarkas/euler/EulerMainTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/APIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/APIController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/NaviController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/NaviController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/Euler4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/Euler4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/FibonaccisUnder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/FibonaccisUnder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/IsPrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/IsPrime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/websocket.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/firstspringboot.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/gfarkas/euler/EulerMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gfarkas/euler/EulerMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gfarkas/euler/controller/HomeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gfarkas/euler/service/Euler2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gfarkas/euler/service/Euler2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gfarkas/euler/EulerMainTests.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,11 +41,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvnw.cmd">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvnw">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/firstspringboot.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitattributes">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/APIController.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="113" column="150" selection-start-line="113" selection-start-column="150" selection-end-line="113" selection-end-column="150" />
+            <state relative-caret-position="188">
+              <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/WebSocketConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/NaviController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,21 +97,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/IsPrime.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+            <state relative-caret-position="85">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/APIController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="115" column="39" selection-start-line="115" selection-start-column="35" selection-end-line="115" selection-end-column="39" />
+            <state relative-caret-position="2108">
+              <caret line="161" column="35" selection-start-line="161" selection-start-column="35" selection-end-line="161" selection-end-column="35" />
               <folding>
-                <element signature="n#style#0;n#h2#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,31 +126,45 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>12335443</find>
+      <find>cons</find>
+      <find>greetings</find>
+      <find>prime</find>
+      <find>res</find>
+      <find>g</find>
+      <find>topic</find>
+      <find>number</find>
+      <find>is</find>
+      <find>No</find>
+      <find>greet</find>
+      <find>is not a</find>
+      <find>send</find>
+      <find>flas</find>
+      <find>app</find>
+      <find>isp</find>
+      <find>tell</find>
+      <find>isprim</find>
       <find>ispr</find>
-      <find>reverse</find>
-      <find>palin</find>
-      <find>euler4</find>
-      <find>euler3</find>
-      <find>conte</find>
-      <find>css</find>
-      <find>disa</find>
-      <find>bootstr</find>
-      <find>navbar-dropdowns</find>
-      <find>conne</find>
-      <find>webs</find>
-      <find>conn</find>
-      <find>gree</find>
-      <find>boo</find>
+      <find>isprime</find>
+      <find>name</find>
+      <find>isprimere</find>
+      <find>foo</find>
+      <find>bod</find>
+      <find>containe</find>
+      <find>sendIsPrime</find>
+      <find>rever</find>
+      <find>start</find>
+      <find>registr</find>
+      <find>web</find>
+      <find>compo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -108,40 +173,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/FirstspringbootApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/Euler1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/HomeController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/Euler1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/Euler3.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/gfarkas/euler/service/LargestPrimeFactorTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/ReverseNumber.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/LargestPrimeFactor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/IsPalindrome.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/FibonaccisUnder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/Euler2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/Euler4.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/HomeController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/NaviController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/css/navbar.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/js/main.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/css/main.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/main.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/WebSocketConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/app.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/css/main.css" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/Greeting.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/GreetingControllerJava.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/HelloMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/WebSocketConfig.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/Greeting.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/HelloMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/GreetingController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/EulerMain.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringSecurityWebAppConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/ErrorController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/error.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/MainController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/SpringSecurityWebAppConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/SpringSecurityWebAppConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/NaviController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/isPrime.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/navBar.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/css/normalize.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/IsPalindrome.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/Euler4.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/IsPrime.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/FibonaccisUnder.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/main.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/websocket.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/APIController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/main.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/css/main.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/auth/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/auth/model/Role.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/auth/service/UserDetailsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/auth/service/SecurityServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/auth/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/auth/validator/UserValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/auth/web/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/validation.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/auth/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/auth/WebApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/auth/service/SecurityService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/auth/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/auth/repository/RoleRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/auth/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/auth/repository/RoleRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/account/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/account/model/Role.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/account/service/SecurityService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/account/repository/RoleRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/account/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/account/service/UserDetailsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/account/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/account/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/account/validator/UserValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/account/web/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/account/service/SecurityServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/EulerMain.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -238,37 +320,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="firstspringboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Euler - SpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="firstspringboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Euler - SpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="firstspringboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Euler - SpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -279,13 +342,14 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548952730004" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549132485955" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$USER_HOME$/OneDrive/Desktop/gs-messaging-stomp-websocket-master/complete" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../stormpath-spring-boot-mfa-example-master" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="DockerRegistry" />
   </component>
@@ -293,22 +357,26 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.gfarkas.euler.service" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.gfarkas.euler" />
+      <recent name="com.gfarkas.euler.service" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.gfarkas.euler.service" />
       <recent name="com.gfarkas.euler" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.gfarkas.euler.service" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\JAVA\Euler - SpringBoot\src\main\resources\templates\fragments" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\JAVA\Euler - SpringBoot\src\main\resources" />
+      <recent name="C:\JAVA\Euler - SpringBoot\src\main\java\com\gfarkas\euler" />
+      <recent name="C:\JAVA\Euler - SpringBoot\src\main\resources\templates\fragments" />
       <recent name="C:\JAVA\Euler - SpringBoot\src\main\resources\static\" />
       <recent name="C:\JAVA\Euler - SpringBoot\src\main\resources\static\js" />
-      <recent name="C:\JAVA\Euler - SpringBoot\src\main\resources\static" />
-      <recent name="C:\JAVA\Euler - SpringBoot\src\main\resources\css" />
-      <recent name="C:\JAVA\Euler - SpringBoot" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -328,7 +396,7 @@
       <module name="firstspringboot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gfarkas.euler.service.*" />
+          <option name="PATTERN" value="com.gfarkas.euler.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -364,17 +432,24 @@
       <workItem from="1548777445729" duration="9093000" />
       <workItem from="1548786601018" duration="3660000" />
       <workItem from="1548858394749" duration="1204000" />
-      <workItem from="1548942846012" duration="9437000" />
+      <workItem from="1548942846012" duration="67724000" />
+      <workItem from="1549119187575" duration="968000" />
+      <workItem from="1549120184714" duration="1409000" />
+      <workItem from="1549130656017" duration="490000" />
+      <workItem from="1549131174563" duration="575000" />
+      <workItem from="1549131779438" duration="374000" />
+      <workItem from="1549132186291" duration="237000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89628000" />
+    <option name="totallyTimeSpent" value="151968000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.282516" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30170575" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -383,14 +458,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4968017" weight="0.39111593" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4968017" visible="true" weight="0.39111593" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32827735" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50319827" side_tool="true" weight="0.45287108" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49932885" weight="0.32827735" />
@@ -416,168 +491,62 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/SpyService.java" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitattributes">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/gfarkas/euler/service/LargestPrimeFactorTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/Euler2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/navBar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="248">
+          <caret line="82" column="52" selection-start-line="82" selection-start-column="52" selection-end-line="82" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/FibonaccisUnder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/normalize.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        <state relative-caret-position="3213">
+          <caret line="189" column="1" selection-start-line="189" selection-start-column="1" selection-end-line="189" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/Greeting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/IsPalindrome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        <state relative-caret-position="272">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/ReverseNumber.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="85" selection-start-line="9" selection-start-column="85" selection-end-line="9" selection-end-column="85" />
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/LargestPrimeFactor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/Euler3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="50" />
+        <state relative-caret-position="273">
+          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#noscript#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/Euler4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/css/sidebar-themes.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/css/style3.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index3.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="838">
-          <caret line="114" column="1" selection-start-line="114" selection-start-column="1" selection-end-line="114" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/NaviController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/Euler1.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/IsPrime.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/GreetingController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="67" column="20" lean-forward="true" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/EulerMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/WebSocketConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -592,37 +561,148 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/Euler4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="115" column="39" selection-start-line="115" selection-start-column="35" selection-end-line="115" selection-end-column="39" />
+        <state relative-caret-position="235">
+          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
           <folding>
-            <element signature="n#style#0;n#h2#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/Greeting.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/FibonaccisUnder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state relative-caret-position="170">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/IsPrime.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+        <state relative-caret-position="358">
+          <caret line="82" column="97" selection-start-line="82" selection-start-column="97" selection-end-line="82" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/websocket.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="68" column="49" selection-start-line="68" selection-start-column="49" selection-end-line="68" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="165" column="17" selection-start-line="165" selection-start-column="17" selection-end-line="165" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/auth/model/User.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/auth/validator/UserValidator.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/auth/service/UserDetailsServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/auth/model/Role.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/auth/WebSecurityConfig.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/auth/WebApplication.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/auth/service/SecurityServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/auth/service/UserServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/auth/web/UserController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/auth/service/SecurityService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/auth/service/UserService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/auth/repository/RoleRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/auth/repository/UserRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/account/model/Role.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/account/repository/RoleRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/account/model/User.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/account/repository/UserRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/account/service/UserDetailsServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/account/service/UserService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/account/service/UserServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/account/validator/UserValidator.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/validation.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/account/service/SecurityService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/account/web/UserController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/account/service/SecurityServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/EulerMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvnw.cmd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvnw">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firstspringboot.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/WebSocketConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/NaviController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/APIController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="113" column="150" selection-start-line="113" selection-start-column="150" selection-end-line="113" selection-end-column="150" />
+        <state relative-caret-position="2108">
+          <caret line="161" column="35" selection-start-line="161" selection-start-column="35" selection-end-line="161" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
         </state>
       </provider>
     </entry>
