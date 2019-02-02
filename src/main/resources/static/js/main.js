@@ -80,6 +80,6 @@ $('#isPrimeModal').on('show.bs.modal', function() {
 })(jQuery);
 
 
-$('#sendIsPrime, #sendIsPalindrome, #sendFibonaccisUnder, #sendReverseNumber, #largestPrimeFactor').on('click touchstart', function () {
+$('#sendIsPrime, #sendIsPalindrome, #sendLargestPrimeFactor, #sendFibonaccisUnder, #sendReverseNumber').on('click touchstart', function () {
     $('#responseField').empty();
 });
