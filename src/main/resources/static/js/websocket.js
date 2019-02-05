@@ -68,4 +68,16 @@ $(function () {
     $("#sendLargestPrimeFactor").click(function () {
         stompClient.send("/app/largestPrimeFactor", {}, JSON.stringify({'name': $("#name").val()}));
     });
+    $("#euler1Button").click(function () {
+        stompClient.send("/app/euler1Button", {}, JSON.stringify({'name': $("#name").val()}));
+    });
+    $("#euler2Button").click(function () {
+        stompClient.send("/app/euler2Button", {}, JSON.stringify({'name': $("#name").val()}));
+    });
+    $("#euler3Button").click(function () {
+        stompClient.send("/app/euler3Button", {}, JSON.stringify({'name': $("#name").val()}));
+    });
+    $("#euler4Button").click(function () {
+        stompClient.send("/app/euler4Button", {}, JSON.stringify({'name': $("#name").val()}));
+    });
 });

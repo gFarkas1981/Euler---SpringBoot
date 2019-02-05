@@ -24,10 +24,10 @@
                             <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown"
                                id="eprojects">Solved Projects</a>
                             <ul aria-labelledby="dropdown1-1" class="dropdown-menu">
-                                <li class="dropdown-item" href="#"><a>Euler 1</a></li>
-                                <li class="dropdown-item" href="#"><a>Euler 2</a></li>
-                                <li class="dropdown-item" href="#"><a>Euler 3</a></li>
-                                <li class="dropdown-item" href="#"><a>Euler 4</a></li>
+                                <li class="dropdown-item" id="euler1Button" href="#"><a>Euler 1</a></li>
+                                <li class="dropdown-item" id="euler2Button" href="#"><a>Euler 2</a></li>
+                                <li class="dropdown-item" id="euler3Button" href="#"><a>Euler 3</a></li>
+                                <li class="dropdown-item" id="euler4Button" href="#"><a>Euler 4</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -79,12 +79,7 @@
                 <li class="nav-item">
                     <a class="nav-link" data-target="#aboutMeModal" data-toggle="modal" href="#">aboutMe</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" th:href="@{/members}">Members</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" th:href="@{/register}">Register</a>
-                </li>
+
             </ul>
             <span class="nav-item" id="status-area"></span>
             <form class="form-inline mt-2 mt-md-0">
