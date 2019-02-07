@@ -74,6 +74,8 @@ button:focus { outline: none; }
 
 html, body {
     height: 100%;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -166,4 +168,14 @@ table td {
 
 .row{
     height: 50px;
+}
+
+#projectEulerImg {
+    border-radius: 10px;
+    max-width: 50%;
+    height: auto;
+}
+
+#textcss, #texthtml, #textbootstrap, #textjquery, #textjscript, #textjava, #textphp {
+    display: none;
 }

@@ -1,0 +1,29 @@
+<textjava>
+<pre id="textjava">
+private static class Airline{
+        private String name;
+        private ArrayList&lt;String&gt; partners;
+
+        public Airline(String[] data){
+            assert data != null && data.length > 0 : "Failed precondition";
+            name = data[0];
+            partners = new ArrayList&lt;String&gt;();
+            for(int i = 1; i < data.length; i++)
+                partners.add( data[i] );
+        }
+        public String[] getPartners(){
+            return partners.toArray(new String[partners.size()]);
+        }
+        public boolean isPartner(String name){
+            return partners.contains(name);
+        }
+        public String getName(){
+            return name;
+        }
+        public String toString(){
+            return name + ", partners: " + partners;
+        }
+    }
+}
+</pre>
+</textjava>

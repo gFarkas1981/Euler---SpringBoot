@@ -80,4 +80,8 @@ $(function () {
     $("#euler4Button").click(function () {
         stompClient.send("/app/euler4Button", {}, JSON.stringify({'name': $("#name").val()}));
     });
+    $("#euler5Button").click(function () {
+        stompClient.send("/app/euler5Button", {}, JSON.stringify({'name': $("#name").val()}));
+    });
+
 });

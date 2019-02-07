@@ -1,3 +1,4 @@
+<html xmlns:th="http://www.thymeleaf.org">
 <main class="container main" role="main">
     <div class="container">
         <div class="row rowHeight">
@@ -36,6 +37,15 @@
             <div class="col-12 col-sm-12 col-md-12 col-lg-12 leftAlign">
                 <div id="responseField"></div>
             </div>
+        </div>
+        <div class="pre-formatted">
+            <div th:replace="fragments/texthtml :: texthtml"></div>
+            <div th:replace="fragments/textcss :: textcss"></div>
+            <div th:replace="fragments/textbootstrap :: textbootstrap"></div>
+            <div th:replace="fragments/textjquery :: textjquery"></div>
+            <div th:replace="fragments/textjscript :: textjscript"></div>
+            <div th:replace="fragments/textjava :: textjava"></div>
+            <div th:replace="fragments/textphp :: textphp"></div>
         </div>
     </div>
 

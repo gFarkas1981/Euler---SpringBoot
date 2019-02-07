@@ -19,6 +19,7 @@ public class APIController {
     private Euler2 euler2;
     private Euler3 euler3;
     private Euler4 euler4;
+    private Euler5 euler5;
     private LargestPrimeFactor largestPrimeFactor;
     private IsPrime isPrime;
     private IsPalindrome isPalindrome;
@@ -61,6 +62,11 @@ public class APIController {
     }
 
     @Autowired
+    public void setEuler5(Euler5 euler5) {
+        this.euler5 = euler5;
+    }
+
+    @Autowired
     public void setFibonaccisUnder(FibonaccisUnder fibonaccisUnder) {
         this.fibonaccisUnder = fibonaccisUnder;
     }
@@ -74,6 +80,11 @@ public class APIController {
     @RequestMapping("/euler4/{nrOfDigits}")
     public int euler4(@PathVariable("nrOfDigits") int nrOfDigits) {
         return euler4.euler4(nrOfDigits);
+    }
+
+    @RequestMapping("/euler5")
+    public int euler5() {
+        return euler5.euler5();
     }
 
     @RequestMapping("/lpf/{number}")
@@ -232,10 +243,25 @@ public class APIController {
     private Greeting euler4(HelloMessage message) throws Exception {
 
         return new Greeting("Largest palindrome product<br><br>" +
+                "Problem 4 <br>" +
                 "A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.\n" +
                 "\n" +
                 "Find the largest palindrome made from the product of two 3-digit numbers. <br><br>Result: " + euler4.euler4(3));
 
     }
+
+    @MessageMapping("/euler5Button")
+    @SendTo("/topic/responseField")
+
+    private Greeting euler5(HelloMessage message) throws Exception {
+
+        return new Greeting("Smallest multiple<br><br>" +
+                "Problem 5 <br>" +
+                "2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.\n" +
+                "\n" +
+                "What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20? <br><br>Result: " + euler5.euler5());
+
+    }
+
 
 }

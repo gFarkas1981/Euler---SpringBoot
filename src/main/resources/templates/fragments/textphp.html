@@ -1,0 +1,19 @@
+<textphp>
+<pre id="textphp">
+$query = "SELECT * FROM orders WHERE hash = '" . $hash . "'";
+$result = mysqli_query($conn, $query);
+
+if (mysqli_num_rows($result) > 0) {
+    while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
+        $email = "{$row['email']}";
+        $hours = "{$row['hours']}";
+        $minutes = "{$row['minutes']}";
+        $timeOfRequest = "{$row['timeOfRequest']}";
+        $address = "{$row['address']}";
+        $uid = "{$row['uid']}";
+    }
+} else {
+    //echo "Query didn't return any result";
+}
+</pre>
+</textphp>

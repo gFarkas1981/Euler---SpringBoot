@@ -31,9 +31,6 @@ $(document).ready(function () {
 
 
 $('.modal-content , .modal-dialog').resizable({
-    //alsoResize: ".modal-dialog",
-
-
     minHeight: 300,
     minWidth: 300
 });
@@ -80,6 +77,27 @@ $('#isPrimeModal').on('show.bs.modal', function() {
 })(jQuery);
 
 
-$('#sendIsPrime, #sendIsPalindrome, #sendLargestPrimeFactor, #sendFibonaccisUnder, #sendReverseNumber, #euler1Button, #euler2Button, #euler3Button, #euler4Button').on('click touchstart', function () {
+$('#sendIsPrime, #sendIsPalindrome, #sendLargestPrimeFactor, #sendFibonaccisUnder, #sendReverseNumber, #euler1Button, #euler2Button, #euler3Button, #euler4Button, #euler5Button').on('click touchstart', function () {
     $('#responseField').empty();
+    $('#texthtml, #textcss, #textjquery, #textbootstrap, #textjscript, #textjava, #textphp').css('display','none');
+});
+
+$('#html5Button, #cssButton, #jqueryButton, #bootStrapButton, #javaScriptButton, #javaButton, #phpButton').on('click touchstart', function () {
+    $('#responseField').empty();
+    $('#texthtml, #textcss, #textjquery, #textbootstrap, #textjscript, #textjava, #textphp').css('display','none');
+    if ($(this).attr("id") === "html5Button") {
+        $('#texthtml').css('display','block');
+    }else if ($(this).attr("id") === "cssButton") {
+        $('#textcss').css('display','block');
+    }else if ($(this).attr("id") === "bootStrapButton") {
+        $('#textbootstrap').css('display','block');
+    }else if ($(this).attr("id") === "jqueryButton") {
+        $('#textjquery').css('display', 'block');
+    }else if ($(this).attr("id") === "javaScriptButton") {
+        $('#textjscript').css('display', 'block');
+    }else if ($(this).attr("id") === "javaButton") {
+            $('#textjava').css('display', 'block');
+    }else if ($(this).attr("id") === "phpButton") {
+        $('#textphp').css('display', 'block');
+    }
 });

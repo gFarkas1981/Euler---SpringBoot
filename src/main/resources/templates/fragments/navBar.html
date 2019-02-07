@@ -28,6 +28,7 @@
                                 <li class="dropdown-item" id="euler2Button" href="#"><a>Euler 2</a></li>
                                 <li class="dropdown-item" id="euler3Button" href="#"><a>Euler 3</a></li>
                                 <li class="dropdown-item" id="euler4Button" href="#"><a>Euler 4</a></li>
+                                <li class="dropdown-item" id="euler5Button" href="#"><a>Euler 5</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -37,15 +38,15 @@
                        data-toggle="dropdown"
                        id="backEnd">BackEnd</a>
                     <ul aria-labelledby="programmingLanguages" class="dropdown-menu">
-                        <li class="dropdown-item" href="#"><a>Java</a></li>
-                        <li class="dropdown-item" href="#"><a>PHP</a></li>
+                        <li class="dropdown-item"  id="javaButton" href="#"><a>Java</a></li>
+                        <li class="dropdown-item" id="phpButton" href="#"><a>PHP</a></li>
                         <li class="dropdown-item dropdown">
                             <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown"
                                id="backEndFrameWorks">FrameWorks</a>
                             <ul aria-labelledby="FrameWorks" class="dropdown-menu">
-                                <li class="dropdown-item" href="#"><a>Spring Boot</a></li>
-                                <li class="dropdown-item" href="#"><a>Ruby On Rails</a></li>
-                                <li class="dropdown-item" href="#"><a>Laravel</a></li>
+                                <li class="dropdown-item" id="springBootButton" href="#"><a>Spring Boot</a></li>
+                                <li class="dropdown-item" id="rubyOnRailsButton" href="#"><a>Ruby On Rails</a></li>
+                                <li class="dropdown-item" id="laravelButton" href="#"><a>Laravel</a></li>
 
                             </ul>
                         </li>
@@ -56,19 +57,16 @@
                        data-toggle="dropdown"
                        id="frontend">FrontEnd</a>
                     <ul aria-labelledby="frontend" class="dropdown-menu">
-                        <li class="dropdown-item" href="#"><a>HTML 5</a></li>
-                        <li class="dropdown-item" href="#"><a>CSS</a></li>
-                        <li class="dropdown-item" href="#"><a>BootStrap</a></li>
-                        <li class="dropdown-item" href="#"><a>Javascript</a></li>
+                        <li class="dropdown-item" id="html5Button" href="#"><a>HTML 5</a></li>
+                        <li class="dropdown-item" id="cssButton" href="#"><a>CSS</a></li>
+                        <li class="dropdown-item" id="bootStrapButton" href="#"><a>BootStrap</a></li>
+                        <li class="dropdown-item" id="javaScriptButton" href="#"><a>Javascript</a></li>
 
                         <li class="dropdown-item dropdown">
                             <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown"
                                id="FrameWorks">FrameWorks</a>
                             <ul aria-labelledby="FrameWorks" class="dropdown-menu">
-                                <li class="dropdown-item" href="#"><a>Spring Boot</a></li>
-                                <li class="dropdown-item" href="#"><a>Ruby On Rails</a></li>
-                                <li class="dropdown-item" href="#"><a>Laravel</a></li>
-                                <li class="dropdown-item" href="#"><a>Jquery</a></li>
+                                <li class="dropdown-item" id="jqueryButton" href="#"><a>Jquery</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -79,10 +77,10 @@
                 <li class="nav-item">
                     <a class="nav-link" data-target="#aboutMeModal" data-toggle="modal" href="#">aboutMe</a>
                 </li>
-
             </ul>
             <span class="nav-item" id="status-area"></span>
             <form class="form-inline mt-2 mt-md-0">
+                <img id="projectEulerImg" src="https://projecteuler.net/profile/gfarkas1981.png" alt="eulerPoint">
                 <input aria-label="Search" class="form-control mr-sm-2" placeholder="Search" type="text">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
