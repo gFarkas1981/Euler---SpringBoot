@@ -1,5 +1,6 @@
 package com.gfarkas.euler;
 
+import com.gfarkas.euler.service.DsignPDF.Dsign;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -18,7 +19,6 @@ public class EulerMain {
         for (String name : beanArray) {
             System.out.println(name);
         }
-
     }
 
 }

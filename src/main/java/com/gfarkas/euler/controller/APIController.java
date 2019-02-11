@@ -101,7 +101,7 @@ public class APIController {
     @RestController
     public class MainController {
         @EventListener(ApplicationReadyEvent.class)
-        public void doSomethingAfterStartup() {
+        public void doSomethingAfterStartup() throws Exception {
             System.out.println("hello world, I have just started up");
         }
     }
