@@ -36,13 +36,13 @@ public class PdfSigner {
             PrivateKey key = (PrivateKey)ks.getKey(alias, password.toCharArray());
             Certificate[] chain = ks.getCertificateChain(alias);
             PdfReader reader = new PdfReader(String.valueOf(src));
-            FileOutputStream fout = new FileOutputStream("src/main/resources/PDF/signed.pdf");
+            FileOutputStream fout = new FileOutputStream("s3://gfarkaseuler/signed.pdf");
             PdfStamper stp = PdfStamper.createSignature(reader, fout, '\u0000', (File)null, true);
             PdfSignatureAppearance sap = stp.getSignatureAppearance();
             sap.setCrypto(key, chain, (CRL[])null, PdfSignatureAppearance.WINCER_SIGNED);
             sap.setLayer2Text("");
             sap.setLayer4Text("");
-            String imagePath = "src/main/resources/PDF/fgsigned.png";
+            String imagePath = "s3://gfarkaseuler/fg.pfx";
             File file = new File(imagePath);
             byte[] imageByte = new byte[(int)file.length()];
             FileInputStream fileInputStream = new FileInputStream(file);

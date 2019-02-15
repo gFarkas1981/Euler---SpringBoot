@@ -26,11 +26,11 @@ public class Dsign {
     public void setPdfSigner(PdfSigner pdfSigner) { this.pdfSigner = pdfSigner;    }
 
     public void dsign() throws Exception {
-        File fileOrigPDF = new File("src/main/resources/PDF/Gabor_Farkas_CVunSigned.pdf");
-        File fileWatermarked1 = new File("src/main/resources/PDF/watermarked1.pdf");
-        File fileWatermarked2 = new File("src/main/resources/PDF/watermarked2.pdf");
-        File filePNGimage = new File("src/main/resources/PDF/watermark.png");
-        File filePFXsecurity = new File("src/main/resources/PDF/fg.pfx");
+        File fileOrigPDF = new File("s3://gfarkaseuler/Gabor_Farkas_CV.pdf");
+        File fileWatermarked1 = new File("s3://gfarkaseuler/watermarked1.pdf");
+        File fileWatermarked2 = new File("s3://gfarkaseuler/watermarked2.pdf");
+        File filePNGimage = new File("s3://gfarkaseuler/watermark.png");
+        File filePFXsecurity = new File("s3://gfarkaseuler/fg.pfx");
         watermarkPdf.watermarkPdf(fileOrigPDF, fileWatermarked1);
         imageWatermark.imageWatermark(fileWatermarked1, fileWatermarked2, filePNGimage);
         pdfSigner.pdfSigner(fileWatermarked2, filePFXsecurity, "test");

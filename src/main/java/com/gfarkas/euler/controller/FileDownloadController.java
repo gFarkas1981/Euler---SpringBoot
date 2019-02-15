@@ -28,7 +28,7 @@ public class FileDownloadController {
         this.dsign = dsign;
     }
 
-    private static final String EXTERNAL_FILE_PATH = "src/main/resources/PDF/";
+    private static final String EXTERNAL_FILE_PATH = "s3://gfarkaseuler/";
 
     @RequestMapping("/file/{fileName:.+}")
     public void downloadPDFResource(HttpServletRequest request, HttpServletResponse response,
