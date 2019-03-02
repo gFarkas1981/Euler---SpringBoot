@@ -7,7 +7,18 @@ public class ReverseNumber {
 
     public int reverseNumber(int number) {
 
-        return Integer.parseInt(new StringBuilder(number + "").reverse().toString());
+        int lastDigit;
+        int reversedNumber = 0;
+
+        while (number > 0) {
+
+            lastDigit = number % 10;
+            number /= 10;
+            reversedNumber = (reversedNumber * 10) + lastDigit;
+
+        }
+
+        return reversedNumber;
     }
 
 

@@ -1,6 +1,10 @@
 package com.gfarkas.euler.controller;
 
+
 import com.gfarkas.euler.service.*;
+import com.gfarkas.euler.service.DsignPDF.Dsign;
+//import com.gfarkas.euler.service.ftp.FTPDownload;
+//import com.gfarkas.euler.service.ftp.FTPUpload;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.event.EventListener;
@@ -11,6 +15,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.HtmlUtils;
 
+import java.util.List;
+
 @RestController
 public class APIController {
 
@@ -20,20 +26,23 @@ public class APIController {
     private Euler3 euler3;
     private Euler4 euler4;
     private Euler5 euler5;
+
     private LargestPrimeFactor largestPrimeFactor;
     private IsPrime isPrime;
     private IsPalindrome isPalindrome;
     private ReverseNumber reverseNumber;
     private FibonaccisUnder fibonaccisUnder;
+    private PrimeFactors primeFactors;
+    private NrOfDivisors nrOfDivisors;
+    private SumOfAnyTwoBigNumbers sumOfAnyTwoBigNumbers;
+//    private FTPDownload ftpDownload;
+//    private FTPUpload ftpUpload;
+    private Dsign dsign;
+
 
     @Autowired
     public void setEuler1(Euler1 euler1) {
         this.euler1 = euler1;
-    }
-
-    @RequestMapping("/euler1")
-    public String euler1() {
-        return euler1.euler1();
     }
 
     @Autowired
@@ -41,19 +50,9 @@ public class APIController {
         this.euler2 = euler2;
     }
 
-    @RequestMapping("/euler2")
-    public int euler2() {
-        return euler2.euler2();
-    }
-
     @Autowired
     public void setEuler3(Euler3 euler3) {
         this.euler3 = euler3;
-    }
-
-    @RequestMapping("/euler3")
-    public int euler3() {
-        return euler3.euler3();
     }
 
     @Autowired
@@ -66,15 +65,79 @@ public class APIController {
         this.euler5 = euler5;
     }
 
+
+    @Autowired
+    public void setNrOfDivisors(NrOfDivisors nrOfDivisors) {
+        this.nrOfDivisors = nrOfDivisors;
+    }
+
+    @Autowired
+    public void setIsPrime(IsPrime isPrime) {
+        this.isPrime = isPrime;
+    }
+
+    @Autowired
+    public void setIsPalindrome(IsPalindrome isPalindrome) {
+        this.isPalindrome = isPalindrome;
+    }
+
+    @Autowired
+    public void setReverseNumber(ReverseNumber reverseNumber) {
+        this.reverseNumber = reverseNumber;
+    }
+
     @Autowired
     public void setFibonaccisUnder(FibonaccisUnder fibonaccisUnder) {
         this.fibonaccisUnder = fibonaccisUnder;
     }
 
-
     @Autowired
     public void setLargestPrimeFactor(LargestPrimeFactor largestPrimeFactor) {
         this.largestPrimeFactor = largestPrimeFactor;
+    }
+
+    @Autowired
+    public void setPrimeFactors(PrimeFactors primeFactors) {
+        this.primeFactors = primeFactors;
+    }
+
+    @Autowired
+    public void setSumOfAnyTwoBigNumbers(SumOfAnyTwoBigNumbers sumOfAnyTwoBigNumbers) {
+        this.sumOfAnyTwoBigNumbers = sumOfAnyTwoBigNumbers;
+    }
+
+//    @Autowired
+//    public void setFtpUpload(FTPUpload ftpUpload) {
+//        this.ftpUpload = ftpUpload;
+//    }
+//
+//    @Autowired
+//    public void setFtpDownload(FTPDownload ftpDownload) {
+//        this.ftpDownload = ftpDownload;
+//    }
+
+    @Autowired
+    public void setDsign(Dsign dsign) {
+        this.dsign = dsign;
+    }
+
+
+
+
+
+    @RequestMapping("/euler1")
+    public String euler1() {
+        return euler1.euler1();
+    }
+
+    @RequestMapping("/euler2")
+    public int euler2() {
+        return euler2.euler2();
+    }
+
+    @RequestMapping("/euler3")
+    public int euler3() {
+        return euler3.euler3();
     }
 
     @RequestMapping("/euler4/{nrOfDigits}")
@@ -87,23 +150,37 @@ public class APIController {
         return euler5.euler5();
     }
 
+
+
+//    @RequestMapping("/ftpdownload")
+//    public void ftpdownload() {
+//        ftpDownload.ftpDownload("pom.xml");
+//    }
+
+//    @RequestMapping("/ftpupload")
+//    public void ftpupload() {
+//        ftpUpload.ftpUpload();
+//    }
+
+
+    @RequestMapping("/dsign")
+    public void dsign() throws Exception {
+        dsign.dsign();
+    }
+
+
+    @RequestMapping("/sumofanytwobignumbers/{number1}/{number2}")
+    public String sumOfAnyTwoBigNumbers(@PathVariable("number1") String number1, @PathVariable("number2") String number2) {
+        if (sumOfAnyTwoBigNumbers.sumOfAnyTwoBigNumbers(number1, number2).equals("")) {
+            return "Please, enter integer numbers!";
+        } else {
+            return sumOfAnyTwoBigNumbers.sumOfAnyTwoBigNumbers(number1, number2);
+        }
+    }
+
     @RequestMapping("/lpf/{number}")
     public int lpf(@PathVariable("number") long number) {
         return largestPrimeFactor.largestPrimeFactor(number);
-    }
-
-    @Autowired
-    public void setIsPrime(IsPrime isPrime) {
-        this.isPrime = isPrime;
-    }
-
-
-    @RestController
-    public class MainController {
-        @EventListener(ApplicationReadyEvent.class)
-        public void doSomethingAfterStartup() throws Exception {
-            System.out.println("hello world, I have just started up");
-        }
     }
 
     @RequestMapping("/isprime/{number}")
@@ -117,19 +194,9 @@ public class APIController {
         return text;
     }
 
-    @Autowired
-    public void setIsPalindrome(IsPalindrome isPalindrome) {
-        this.isPalindrome = isPalindrome;
-    }
-
     @RequestMapping("/ispalindrome/{number}")
     public boolean isPalindrome(@PathVariable("number") int number) {
         return isPalindrome.isPalindrome(number);
-    }
-
-    @Autowired
-    public void setReverseNumber(ReverseNumber reverseNumber) {
-        this.reverseNumber = reverseNumber;
     }
 
     @RequestMapping("/reversenumber/{number}")
@@ -137,6 +204,15 @@ public class APIController {
         return reverseNumber.reverseNumber(number);
     }
 
+    @RequestMapping("/primefactors/{number}")
+    public List<Integer> primeFactors(@PathVariable("number") int number) {
+        return primeFactors.primeFactors(number);
+    }
+
+    @RequestMapping("/nrofdivisors/{number}")
+    public int nrOfDivisors(@PathVariable("number") int number) {
+        return nrOfDivisors.nrOfDivisors(number);
+    }
 
     @MessageMapping("/isPrime")
     @SendTo("/topic/responseField")
@@ -174,7 +250,7 @@ public class APIController {
     @SendTo("/topic/responseField")
     private Greeting showFibonaccisUnder(HelloMessage message) throws Exception {
         try {
-            return new Greeting(("Fibonacci numbers under your number are: " + fibonaccisUnder.fibonaccisUnder(Integer.valueOf(HtmlUtils.htmlEscape(message.getName())))).replace("[","").replace("]",""));
+            return new Greeting(("Fibonacci numbers under your number are: " + fibonaccisUnder.fibonaccisUnder(Integer.valueOf(HtmlUtils.htmlEscape(message.getName())))).replace("[", "").replace("]", ""));
         } catch (Exception e) {
             return new Greeting(enterInteger);
         }
@@ -237,6 +313,7 @@ public class APIController {
                 "What is the largest prime factor of the number 600851475143 ? <br><br>Result: " + euler3.euler3());
 
     }
+
     @MessageMapping("/euler4Button")
     @SendTo("/topic/responseField")
 
@@ -263,5 +340,11 @@ public class APIController {
 
     }
 
-
+    @RestController
+    public class MainController {
+        @EventListener(ApplicationReadyEvent.class)
+        public void doSomethingAfterStartup() throws Exception {
+            System.out.println("hello world, I have just started up");
+        }
+    }
 }
