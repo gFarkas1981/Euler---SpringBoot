@@ -10,70 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5578a448-39be-4eca-b59b-ca7aafcb138d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstspringboot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/firstspringboot.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/EulerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/EulerMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/APIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/APIController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/FileDownloadController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/s3/S3Config.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/s3/services/S3Services.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/s3/services/impl/S3ServicesImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/s3/util/Utility.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/DsignPDF/Dsign.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/DsignPDF/Dsign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/DsignPDF/ImageWatermark.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/DsignPDF/PdfAddPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/DsignPDF/PdfAddPages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/DsignPDF/PdfPageOrientation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/DsignPDF/PdfPageOrientation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/DsignPDF/PdfSigner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/DsignPDF/PdfSigner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/DsignPDF/WatermarkPdf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/DsignPDF/WatermarkPdf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/IsPrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/IsPrime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/ReverseNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/ReverseNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/PDF/bcpkix-jdk15on-157.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/PDF/bcprov-jdk16-140.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/PDF/com.lowagie.text-2.1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/PDF/commons-io-2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/PDF/itext7-barcodes-7.0.2-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/PDF/itext7-barcodes-7.0.2-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/PDF/itext7-barcodes-7.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/PDF/itext7-font-asian-7.0.2-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/PDF/itext7-font-asian-7.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/PDF/itext7-forms-7.0.2-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/PDF/itext7-forms-7.0.2-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/PDF/itext7-forms-7.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/PDF/itext7-hyph-7.0.2-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/PDF/itext7-hyph-7.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/PDF/itext7-io-7.0.2-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/PDF/itext7-io-7.0.2-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/PDF/itext7-io-7.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/PDF/itext7-kernel-7.0.2-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/PDF/itext7-kernel-7.0.2-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/PDF/itext7-kernel-7.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/PDF/itext7-layout-7.0.2-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/PDF/itext7-layout-7.0.2-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/PDF/itext7-layout-7.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/PDF/itext7-pdfa-7.0.2-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/PDF/itext7-pdfa-7.0.2-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/PDF/itext7-pdfa-7.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/PDF/itext7-pdftest-7.0.2-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/PDF/itext7-pdftest-7.0.2-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/PDF/itext7-pdftest-7.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/PDF/itext7-sign-7.0.2-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/PDF/itext7-sign-7.0.2-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/PDF/itext7-sign-7.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/PDF/itextpdf-5.4.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/PDF/jPDFProcess.v2016R1.16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/PDF/jna-4.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/PDF/jna-platform-4.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/PDF/jproc-2.2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/PDF/junit-4.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/PDF/logback-core-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/PDF/slf4j-api-1.7.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/navBar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/navBar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gfarkas/euler/EulerMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gfarkas/euler/EulerMain.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -110,15 +48,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/DsignPDF/WatermarkPdf.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="44" column="27" selection-end-line="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/DsignPDF/Wildcard.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -137,58 +66,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/DsignPDF/Dsign.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="587">
-              <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/APIController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-82">
-              <caret line="152" selection-start-line="152" selection-end-line="152" />
+            <state relative-caret-position="190">
+              <caret line="168" column="5" lean-forward="true" selection-start-line="168" selection-start-column="5" selection-end-line="168" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/data.sql">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/domain/Number.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#291#292#0" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
-                <element signature="e#362#363#0" expanded="true" />
-                <element signature="e#398#399#0" expanded="true" />
-                <element signature="e#433#434#0" expanded="true" />
-                <element signature="e#466#467#0" expanded="true" />
-                <element signature="e#516#517#0" expanded="true" />
-                <element signature="e#560#561#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -198,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/repository/NumberRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -207,17 +90,65 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/MainController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/domain/Number.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="34" column="54" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
+            <state relative-caret-position="170">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#520#521#0" expanded="true" />
-                <element signature="e#559#560#0" expanded="true" />
-                <element signature="e#633#634#0" expanded="true" />
-                <element signature="e#689#690#0" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/MainController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="337">
+              <caret line="34" column="3" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/NumberService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+                <element signature="e#300#301#0" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
+                <element signature="e#406#407#0" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="26" column="51" lean-forward="true" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -231,14 +162,13 @@
         <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>sumOfAnyTwoBigNumbers</find>
       <find>4919</find>
       <find>0</find>
       <find>23514624</find>
@@ -268,6 +198,7 @@
       <find>.ftpu</find>
       <find>drop</find>
       <find>create</find>
+      <find>numberser</find>
     </findStrings>
     <dirStrings>
       <dir>C:\JAVA\Euler - SpringBoot</dir>
@@ -279,8 +210,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/Ftp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/FTP/FtpConfiguration.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/Greeting.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/SFTP/SftpConfiguration.java" />
@@ -327,9 +256,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/domain/Numbers.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/repository/NumberInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/repository/NumberRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/MainController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/data.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/domain/Number.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/main.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/NumberService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/MainController.java" />
       </list>
     </option>
   </component>
@@ -403,6 +334,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="euler" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="firstspringboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Euler - SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="euler" type="462c0819:PsiDirectoryNode" />
               <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -443,6 +383,23 @@
             </path>
             <path>
               <item name="firstspringboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Euler - SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="firstspringboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Euler - SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="fragments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="firstspringboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
             <path>
@@ -466,7 +423,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551545962529" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551547516260" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="dynamic.classpath" value="true" />
@@ -654,12 +611,12 @@
       <workItem from="1551435799946" duration="8968000" />
       <workItem from="1551458876537" duration="5080000" />
       <workItem from="1551464011216" duration="1945000" />
-      <workItem from="1551468650575" duration="11262000" />
+      <workItem from="1551468650575" duration="12900000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="467839000" />
+    <option name="totallyTimeSpent" value="469477000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -672,9 +629,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info auto_hide="true" id="aws.explorer" order="0" sideWeight="0.5024233" weight="0.3955224" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49757674" visible="true" weight="0.18923241" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49757674" visible="true" weight="0.18923241" />
       <window_info id="Structure" order="2" sideWeight="0.5024233" side_tool="true" weight="0.3955224" />
       <window_info id="Designer" order="3" />
       <window_info id="Image Layers" order="4" />
@@ -691,8 +649,8 @@
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4978678" weight="0.32936078" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.1913646" side_tool="true" visible="true" weight="0.43228602" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.8086354" visible="true" weight="0.43228602" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.19189766" side_tool="true" visible="true" weight="0.43228602" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.80810237" visible="true" weight="0.43228602" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49520257" weight="0.32827735" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
@@ -721,9 +679,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/SFTP/SpringSftpDownloadDemoApplicationTests.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/ftp/SftpConfig.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/ftp/FTPProperties.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/ftp/FTPFileWriter.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/ftp/FTPFileWriterImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/Euler6.java">
@@ -1008,42 +963,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/APIController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-82">
-          <caret line="152" selection-start-line="152" selection-end-line="152" />
+        <state relative-caret-position="190">
+          <caret line="168" column="5" lean-forward="true" selection-start-line="168" selection-start-column="5" selection-end-line="168" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/MainController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="34" column="54" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#633#634#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="289">
+          <caret line="26" column="51" lean-forward="true" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/repository/NumberRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data.sql">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/domain/Number.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1051,14 +1006,36 @@
           <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
             <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/NumberService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="34" column="3" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
           </folding>
         </state>
       </provider>
