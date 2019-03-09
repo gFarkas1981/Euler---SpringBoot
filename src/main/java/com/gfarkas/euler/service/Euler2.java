@@ -23,7 +23,6 @@ public class Euler2 {
         fib = fibonaccisUnder.fibonaccisUnder(4000000); //Fibonaccis under 4million
 
         for (int i = 1; i < fib.size(); ) { //looping through Fibonaccis starting from the first pair number
-            System.out.println(fib.get(i));
             sum = sum + fib.get(i);
             i = i + 3; // moving to the next pair number
 

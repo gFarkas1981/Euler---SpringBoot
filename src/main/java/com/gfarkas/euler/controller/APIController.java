@@ -34,7 +34,9 @@ public class APIController {
     private FibonaccisUnder fibonaccisUnder;
     private PrimeFactors primeFactors;
     private NrOfDivisors nrOfDivisors;
-    private SumOfAnyTwoBigNumbers sumOfAnyTwoBigNumbers;
+    private Adder adder;
+    private Subtractor subtractor;
+    private IsBigger isBigger;
 //    private FTPDownload ftpDownload;
 //    private FTPUpload ftpUpload;
     private Dsign dsign;
@@ -102,11 +104,21 @@ public class APIController {
     }
 
     @Autowired
-    public void setSumOfAnyTwoBigNumbers(SumOfAnyTwoBigNumbers sumOfAnyTwoBigNumbers) {
-        this.sumOfAnyTwoBigNumbers = sumOfAnyTwoBigNumbers;
+    public void setAdder(Adder adder) {
+        this.adder = adder;
     }
 
-//    @Autowired
+    @Autowired
+    public void setSubtractor(Subtractor subtractor) {
+        this.subtractor = subtractor;
+    }
+
+    @Autowired
+    public void setIsBigger(IsBigger isBigger) {
+        this.isBigger = isBigger;
+    }
+
+    //    @Autowired
 //    public void setFtpUpload(FTPUpload ftpUpload) {
 //        this.ftpUpload = ftpUpload;
 //    }
@@ -169,12 +181,30 @@ public class APIController {
     }
 
 
-    @RequestMapping("/sumofanytwobignumbers/{number1}/{number2}")
-    public String sumOfAnyTwoBigNumbers(@PathVariable("number1") String number1, @PathVariable("number2") String number2) {
-        if (sumOfAnyTwoBigNumbers.sumOfAnyTwoBigNumbers(number1, number2).equals("")) {
+    @RequestMapping("/sum/{number1}/{number2}")
+    public String sum(@PathVariable("number1") String number1, @PathVariable("number2") String number2) {
+        if (adder.adder(number1, number2).equals("")) {
             return "Please, enter integer numbers!";
         } else {
-            return sumOfAnyTwoBigNumbers.sumOfAnyTwoBigNumbers(number1, number2);
+            return adder.adder(number1, number2);
+        }
+    }
+
+    @RequestMapping("/subtract/{number1}/{number2}")
+    public String subtract(@PathVariable("number1") String number1, @PathVariable("number2") String number2) {
+        if (subtractor.subtractor(number1, number2).equals("")) {
+            return "Please, enter integer numbers!";
+        } else {
+            return subtractor.subtractor(number1, number2);
+        }
+    }
+
+    @RequestMapping("/isbigger/{number1}/{number2}")
+    public String isBigger(@PathVariable("number1") String number1, @PathVariable("number2") String number2) {
+        if (isBigger.isBigger(number1, number2).equals("")) {
+            return "Please, enter integer numbers!";
+        } else {
+            return isBigger.isBigger(number1, number2);
         }
     }
 
@@ -344,7 +374,7 @@ public class APIController {
     public class MainController {
         @EventListener(ApplicationReadyEvent.class)
         public void doSomethingAfterStartup() throws Exception {
-            System.out.println("hello world, I have just started up");
+            System.out.println("I've just started up");
         }
     }
 }
