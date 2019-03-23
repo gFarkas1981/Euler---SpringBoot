@@ -13,9 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5578a448-39be-4eca-b59b-ca7aafcb138d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/APIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/APIController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/gitHub.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/gitHub.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/navBar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/navBar.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,18 +50,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/APIController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="61" selection-start-line="61" selection-end-line="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/gitHub.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -77,34 +63,40 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/schema.sql">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/Euler26.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/main.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/ErrorPageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+            <state relative-caret-position="223">
+              <caret line="35" column="91" lean-forward="true" selection-start-line="35" selection-start-column="91" selection-end-line="35" selection-end-column="92" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#750#751#0" expanded="true" />
+                <element signature="e#804#805#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/error.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1836">
-              <caret line="108" column="21" selection-start-line="108" selection-start-column="21" selection-end-line="108" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="44" column="7" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
+            <state relative-caret-position="306">
+              <caret line="30" column="54" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -125,8 +117,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ftp</find>
-      <find>enter</find>
       <find>isb</find>
       <find>subt</find>
       <find>subtractAnyBigNumberFromAnyBigNumber</find>
@@ -155,6 +145,8 @@
       <find>jpa</find>
       <find>time</find>
       <find>creat</find>
+      <find>header</find>
+      <find>gfarkas.com</find>
     </findStrings>
     <dirStrings>
       <dir>C:\JAVA\Euler - SpringBoot</dir>
@@ -166,11 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/DsignPDF/Dsign.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/domain/Numbers.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/repository/NumberInterface.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/repository/NumberRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/data.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/domain/Number.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/main.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/NumberService.java" />
@@ -217,6 +204,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/FibonaccisUnder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/APIController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/gitHub.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/error.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/detailedError.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/ErrorPageController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/navBar.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/error.html" />
       </list>
     </option>
   </component>
@@ -291,9 +283,7 @@
               <item name="Euler - SpringBoot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="euler" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="firstspringboot" type="b2602c69:ProjectViewProjectNode" />
@@ -301,6 +291,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -316,7 +307,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553357757285" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553370914084" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="dynamic.classpath" value="true" />
@@ -338,27 +329,27 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.gfarkas.euler" />
-      <recent name="com.gfarkas.euler.service" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\JAVA\Euler - SpringBoot\src\main\resources\PDF" />
-      <recent name="C:\JAVA\Euler - SpringBoot\src\main\java\com\gfarkas\euler\service\DsignPDF" />
-      <recent name="C:\JAVA\Euler - SpringBoot\src\main\resources\templates\fragments" />
-      <recent name="C:\JAVA\Euler - SpringBoot\src\main\resources\static\doc" />
-      <recent name="C:\JAVA\Euler - SpringBoot\src\main\resources\templates" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.gfarkas.euler.service" />
-      <recent name="com.gfarkas.euler" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\JAVA\Euler - SpringBoot" />
       <recent name="C:\JAVA\Euler - SpringBoot\src" />
       <recent name="C:\JAVA\Euler - SpringBoot\src\main\resources\PDF" />
       <recent name="C:\JAVA\Euler - SpringBoot\src\main\java\com\gfarkas\euler" />
       <recent name="C:\JAVA\Euler - SpringBoot\src\main\java\com\gfarkas\euler\service\DsignPDF" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.gfarkas.euler" />
+      <recent name="com.gfarkas.euler.service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gfarkas.euler.service" />
+      <recent name="com.gfarkas.euler" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\JAVA\Euler - SpringBoot\src\main\resources\templates" />
+      <recent name="C:\JAVA\Euler - SpringBoot\src\main\resources\templates\fragments" />
+      <recent name="C:\JAVA\Euler - SpringBoot\src\main\resources\PDF" />
+      <recent name="C:\JAVA\Euler - SpringBoot\src\main\java\com\gfarkas\euler\service\DsignPDF" />
+      <recent name="C:\JAVA\Euler - SpringBoot\src\main\resources\static\doc" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -517,12 +508,12 @@
       <workItem from="1552496747235" duration="6093000" />
       <workItem from="1553267657006" duration="32196000" />
       <workItem from="1553352813917" duration="5230000" />
-      <workItem from="1553358331418" duration="737000" />
+      <workItem from="1553358331418" duration="8764000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="634559000" />
+    <option name="totallyTimeSpent" value="642586000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -535,6 +526,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info auto_hide="true" id="aws.explorer" order="0" sideWeight="0.5024233" weight="0.3955224" />
       <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49596122" visible="true" weight="0.29637527" />
@@ -555,13 +547,13 @@
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.3619403" side_tool="true" weight="0.27193934" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.8070362" visible="true" weight="0.40520042" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.8070362" weight="0.40520042" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4946695" weight="0.32827735" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.32936078" />
       <window_info anchor="bottom" id="Problems" order="15" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.6380597" weight="0.4452871" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.6380597" visible="true" weight="0.4452871" />
       <window_info anchor="bottom" id="Duplicate detector" order="17" sideWeight="0.4989339" weight="0.32936078" />
       <window_info anchor="bottom" id="Inspection Results" order="18" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -627,39 +619,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/NumberService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/NrOfDivisors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/DsignPDF/Wildcard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/validation.properties" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/ftp/FTPDownload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="61" column="15" lean-forward="true" selection-start-column="2" selection-end-line="86" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/ftp/FTPUpload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="62" column="2" lean-forward="true" selection-start-line="62" selection-start-column="2" selection-end-line="62" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/DsignPDF/NrOElementsInArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -996,6 +955,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/schema.sql">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/main.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/detailedError.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="31" column="54" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="31" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/ErrorPageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="35" column="91" lean-forward="true" selection-start-line="35" selection-start-column="91" selection-end-line="35" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/navBar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="30" column="54" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
