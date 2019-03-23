@@ -181,7 +181,7 @@ public class APIController {
     public int euler5() {
         return euler5.euler5();
     }
-    
+
 
 //    @RequestMapping("/ftpdownload")
 //    public void ftpdownload() {
