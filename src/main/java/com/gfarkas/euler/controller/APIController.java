@@ -3,8 +3,6 @@ package com.gfarkas.euler.controller;
 
 import com.gfarkas.euler.service.*;
 import com.gfarkas.euler.service.DsignPDF.Dsign;
-//import com.gfarkas.euler.service.ftp.FTPDownload;
-//import com.gfarkas.euler.service.ftp.FTPUpload;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.event.EventListener;
@@ -15,7 +13,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.HtmlUtils;
 
+import java.math.BigInteger;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
+
+//import com.gfarkas.euler.service.ftp.FTPDownload;
+//import com.gfarkas.euler.service.ftp.FTPUpload;
 
 @RestController
 public class APIController {
@@ -32,15 +36,28 @@ public class APIController {
     private IsPalindrome isPalindrome;
     private ReverseNumber reverseNumber;
     private FibonaccisUnder fibonaccisUnder;
+    private Permutations permutations;
     private PrimeFactors primeFactors;
     private NrOfDivisors nrOfDivisors;
     private Adder adder;
     private Subtractor subtractor;
+    private Multiplicator multiplicator;
+    private Divider divider;
     private IsBigger isBigger;
-//    private FTPDownload ftpDownload;
+    //    private FTPDownload ftpDownload;
 //    private FTPUpload ftpUpload;
     private Dsign dsign;
+    private Euler26 euler26;
 
+    @Autowired
+    public void setPermutations(Permutations permutations) {
+        this.permutations = permutations;
+    }
+
+    @Autowired
+    public void setEuler25(Euler26 euler26) {
+        this.euler26 = euler26;
+    }
 
     @Autowired
     public void setEuler1(Euler1 euler1) {
@@ -109,8 +126,18 @@ public class APIController {
     }
 
     @Autowired
+    public void setMultiplicator(Multiplicator multiplicator) {
+        this.multiplicator = multiplicator;
+    }
+
+    @Autowired
     public void setSubtractor(Subtractor subtractor) {
         this.subtractor = subtractor;
+    }
+
+    @Autowired
+    public void setDivider(Divider divider) {
+        this.divider = divider;
     }
 
     @Autowired
@@ -132,9 +159,6 @@ public class APIController {
     public void setDsign(Dsign dsign) {
         this.dsign = dsign;
     }
-
-
-
 
 
     @RequestMapping("/euler1")
@@ -162,6 +186,10 @@ public class APIController {
         return euler5.euler5();
     }
 
+    @RequestMapping("/euler26")
+    public int euler26() {
+        return euler26.euler26();
+    }
 
 
 //    @RequestMapping("/ftpdownload")
@@ -199,6 +227,38 @@ public class APIController {
         }
     }
 
+    @RequestMapping("/multiply/{number1}/{number2}")
+    public String multiply(@PathVariable("number1") String number1, @PathVariable("number2") String number2) {
+        if (multiplicator.multiplicator(number1, number2).equals("")) {
+            return "Please, enter integer numbers!";
+        } else {
+            return multiplicator.multiplicator(number1, number2);
+        }
+    }
+
+    @RequestMapping("/divide/{number1}/{number2}")
+    public String divide(@PathVariable("number1") StringBuilder number1, @PathVariable("number2") StringBuilder number2) {
+        if (divider.divider(number1, number2).equals("")) {
+            return "Please, enter integer numbers!";
+        } else {
+            return divider.divider(number1, number2);
+        }
+    }
+
+//    @RequestMapping("/numberwriter/{number}")
+//    public String numberWriter(@PathVariable("number") StringBuilder number) {
+//
+//        if (numberWriter.numberWriter(number).equals("")) {
+//
+//            return "Please, enter integer numbers!";
+//
+//        } else {
+//
+//            return numberWriter.numberWriter(number);
+//
+//        }
+//    }
+
     @RequestMapping("/isbigger/{number1}/{number2}")
     public String isBigger(@PathVariable("number1") String number1, @PathVariable("number2") String number2) {
         if (isBigger.isBigger(number1, number2).equals("")) {
@@ -215,13 +275,25 @@ public class APIController {
 
     @RequestMapping("/isprime/{number}")
     public String isPrime(@PathVariable("number") int number) {
-        String text = "";
+        String text;
         if (isPrime.isPrime(number)) {
             text = "Yes, " + number + " is a prime number!";
         } else {
             text = "No, " + number + " is not a prime number!";
         }
         return text;
+    }
+
+    @RequestMapping("/permutations/{string}")
+    public String permutations(@PathVariable("string") String string) {
+
+        // create ArrayList and store HashSet contents
+        List<String> orderedResult = new ArrayList<>(permutations.permutation(string));
+
+        // sort using Collections.sort(); method
+        Collections.sort(orderedResult);
+
+        return String.valueOf(orderedResult.get(999_999));
     }
 
     @RequestMapping("/ispalindrome/{number}")
@@ -247,7 +319,7 @@ public class APIController {
     @MessageMapping("/isPrime")
     @SendTo("/topic/responseField")
     private Greeting isPrime(HelloMessage message) throws Exception {
-        String text = "";
+        String text;
         try {
             if (isPrime.isPrime(Integer.valueOf(HtmlUtils.htmlEscape(message.getName())))) {
                 text = "Yes, " + Integer.valueOf(HtmlUtils.htmlEscape(message.getName())) + " is a prime number!";
@@ -263,7 +335,7 @@ public class APIController {
     @MessageMapping("/isPalindrome")
     @SendTo("/topic/responseField")
     private Greeting isPalindrome(HelloMessage message) throws Exception {
-        String text = "";
+        String text;
         try {
             if (isPalindrome(Integer.valueOf(HtmlUtils.htmlEscape(message.getName())))) {
                 text = "Yes, " + Integer.valueOf(HtmlUtils.htmlEscape(message.getName())) + " is a palindrome number!";

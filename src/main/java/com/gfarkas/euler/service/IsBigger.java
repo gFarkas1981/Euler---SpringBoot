@@ -17,8 +17,8 @@ public class IsBigger {
     }
 
     /**
-     *  It determines if the first number (String format) is bigger then second one.
-     *  Returns "true" or "false" or "equal"
+     * It determines if the first number (String format) is bigger then second one.
+     * Returns "true" or "false" or "equal"
      */
     public String isBigger(String number1, String number2) {
 
@@ -47,18 +47,21 @@ public class IsBigger {
 
             } else {    // two numbers with the same length
 
-                for (int i = 0; i < number1.length(); i++) {    // iterate through first number's digits
-                    // first digit is the last digit!!!
+                while (!number1.equals("")) {
 
-                    if (Integer.parseInt(number1.substring(i, i + 1)) >= Integer.parseInt(number2.substring(i, i + 1))){
+                    if (Integer.parseInt(number1.substring(0, 1)) > Integer.parseInt(number2.substring(0, 1))) {
 
                         isBigger = "true";  // true until all digits of first number is bigger or equal to second
+                        break;
 
-                    } else {
+                    } else if (Integer.parseInt(number1.substring(0, 1)) < Integer.parseInt(number2.substring(0, 1))){
+
                         isBigger = "false"; // if only one digit is smaller then first number is smaller
                         break;
 
                     }
+                    number1 = number1.substring(1);
+                    number2 = number2.substring(1);
 
                 }
             }

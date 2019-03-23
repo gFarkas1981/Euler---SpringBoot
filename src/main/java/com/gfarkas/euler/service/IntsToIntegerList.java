@@ -16,10 +16,17 @@ public class IntsToIntegerList {
 
         List<Integer> integerList = new ArrayList<>();
 
-        for (int i = 0; i < inputStringBuilder.length(); i++) {     // iterating through input StringBuilder's digits
-            // and adding them to an integer list
-            integerList.add(Integer.parseInt(inputStringBuilder.substring(i, i + 1)));
+        try {
+
+            for (int i = 0; i < inputStringBuilder.length(); i++) {     // iterating through input StringBuilder's digits
+                // and adding them to an integer list
+                integerList.add(Integer.parseInt(inputStringBuilder.substring(i, i + 1)));
+            }
+
+        } catch (NumberFormatException ignored) {
         }
+
+        String result = integerList.toString();
 
         return integerList;
 

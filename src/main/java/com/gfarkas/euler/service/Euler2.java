@@ -19,7 +19,7 @@ public class Euler2 {
     public int euler2() {
 
         int sum = 0; //initializing the sum of the even-valued terms
-        List<Integer> fib = new ArrayList<>();
+        List<Integer> fib;
         fib = fibonaccisUnder.fibonaccisUnder(4000000); //Fibonaccis under 4million
 
         for (int i = 1; i < fib.size(); ) { //looping through Fibonaccis starting from the first pair number

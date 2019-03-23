@@ -9,8 +9,8 @@ import java.io.InputStream;
 public class FileCopier {
 
     static void fileCopier(File FROM, File TO) throws IOException {
-        InputStream inStream = null;
-        FileOutputStream outStream = null;
+        InputStream inStream;
+        FileOutputStream outStream;
 
         try {
             inStream = new FileInputStream(FROM);

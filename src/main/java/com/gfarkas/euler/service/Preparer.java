@@ -61,8 +61,8 @@ public class Preparer {
             // to the other's size
             reversedNumber2 = addZeros.addZeros(reversedNumber2, reversedNumber1);  // e.g.: 123, 12 -> 123, 120
 
-            List<Integer> reversedNumberList1 = new ArrayList<>();
-            List<Integer> reversedNumberList2 = new ArrayList<>();
+            List<Integer> reversedNumberList1;
+            List<Integer> reversedNumberList2;
 
             reversedNumberList1 = intsToIntegerList.intsToIntegerList(reversedNumber1);
 
@@ -71,6 +71,47 @@ public class Preparer {
 
             listOfLists.add(reversedNumberList1);   // It adds two list to the output list
             listOfLists.add(reversedNumberList2);
+            // first element is the first number, second is the second number
+
+        }
+        return listOfLists;
+    }
+
+
+
+
+    List<List<Integer>> preparer(StringBuilder number1, StringBuilder number2) {
+
+        boolean areTheyNumbers = true;
+
+        List<List<Integer>> listOfLists = new ArrayList<>();
+
+        try {
+
+            for (int i = 0; i < number1.length(); i++)
+                Integer.parseInt(number1.substring(i, i + 1));
+
+            for (int i = 0; i < number2.length(); i++)
+                Integer.parseInt(number2.substring(i, i + 1));
+
+        } catch (NumberFormatException nfe) {
+
+            areTheyNumbers = false;  // at least one digit is not a number
+
+        }
+
+        if (areTheyNumbers) {
+
+            List<Integer> numberList1;
+            List<Integer> numberList2;
+
+            numberList1 = intsToIntegerList.intsToIntegerList(number1);
+
+            numberList2 = intsToIntegerList.intsToIntegerList(number2);
+
+
+            listOfLists.add(numberList1);   // It adds two list to the output list
+            listOfLists.add(numberList2);
             // first element is the first number, second is the second number
 
         }
