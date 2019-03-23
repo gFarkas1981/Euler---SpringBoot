@@ -47,17 +47,13 @@ public class APIController {
     //    private FTPDownload ftpDownload;
 //    private FTPUpload ftpUpload;
     private Dsign dsign;
-    private Euler26 euler26;
+
 
     @Autowired
     public void setPermutations(Permutations permutations) {
         this.permutations = permutations;
     }
 
-    @Autowired
-    public void setEuler25(Euler26 euler26) {
-        this.euler26 = euler26;
-    }
 
     @Autowired
     public void setEuler1(Euler1 euler1) {
@@ -185,12 +181,7 @@ public class APIController {
     public int euler5() {
         return euler5.euler5();
     }
-
-    @RequestMapping("/euler26")
-    public int euler26() {
-        return euler26.euler26();
-    }
-
+    
 
 //    @RequestMapping("/ftpdownload")
 //    public void ftpdownload() {

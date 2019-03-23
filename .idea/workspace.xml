@@ -13,17 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5578a448-39be-4eca-b59b-ca7aafcb138d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstspringboot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/firstspringboot.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/APIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/APIController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/DsignPDF/FileCopier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/DsignPDF/FileCopier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/Euler2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/Euler2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/IntsToIntegerList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/IntsToIntegerList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/IsBigger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/IsBigger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/Preparer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/Preparer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gfarkas/euler/service/Euler2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gfarkas/euler/service/Euler2.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,11 +49,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/APIController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="1598">
+              <caret line="183" column="4" selection-start-line="183" selection-start-column="4" selection-end-line="183" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,7 +79,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="173">
@@ -114,7 +104,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>drop</find>
       <find>create</find>
       <find>numberser</find>
       <find>ftp</find>
@@ -144,6 +133,7 @@
       <find>23</find>
       <find>resul</find>
       <find>fib</find>
+      <find>jpa</find>
     </findStrings>
     <dirStrings>
       <dir>C:\JAVA\Euler - SpringBoot</dir>
@@ -201,11 +191,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/Euler24.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/Permutations.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/Euler25.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/APIController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/Euler26.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/FibonaccisUnder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/APIController.java" />
       </list>
     </option>
   </component>
@@ -505,12 +495,12 @@
       <workItem from="1552477320095" duration="12019000" />
       <workItem from="1552496747235" duration="6093000" />
       <workItem from="1553267657006" duration="32196000" />
-      <workItem from="1553352813917" duration="1206000" />
+      <workItem from="1553352813917" duration="1451000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="629798000" />
+    <option name="totallyTimeSpent" value="630043000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -523,6 +513,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info auto_hide="true" id="aws.explorer" order="0" sideWeight="0.5024233" weight="0.3955224" />
       <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49596122" visible="true" weight="0.29317698" />
@@ -943,16 +934,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/APIController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/service/Euler26.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -978,6 +959,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
           <caret line="44" column="7" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gfarkas/euler/controller/APIController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1598">
+          <caret line="183" column="4" selection-start-line="183" selection-start-column="4" selection-end-line="183" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
